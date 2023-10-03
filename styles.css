@@ -1,1 +1,36 @@
-/*  your css code here. If applicable */
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container */
+.container {
+    width: 300px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding to the container */
+    border: 2px solid black; /* Add a rounded border */
+    border-radius: 10px; /* Round the corners of the container */
+    text-align: center; /* Center the content inside the container */
+}
+
+/* Style the colored blocks */
+.red, .green, .yellow {
+    width: 100px; /* Adjust the size of the blocks as needed */
+    height: 100px; /* Make them square by setting the height equal to the width */
+    display: inline-block; /* Display the blocks inline */
+    border-radius: 50%; /* Make them circular */
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
